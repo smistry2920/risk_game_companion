@@ -1,39 +1,45 @@
 =================================================================
 10-15-2013: (YAY, start date!)
-**A little extra: 
-	-This idea came to me yesterday when I decided to by
-	risk legacy (which was, in and of itself, unusual since
-	I dislike risk due to the length/pace of the game). 
-	Since I was buying risk, why not build a companion/app 
-	that helped make the game easier/quicker to play?
-		-Goal 1: Handles dice rolling
-		-Goal 2: Keeps track of player population/
-			troops and tells how many given
-			per recuitment step.
-		-Goal 3: since it's for risk legacy, keep
-			track of player wins and original
-			color.
-		-Goal 4: FINISH THE THING!!
-		-Goal That Should Be Done: write proper
-			documentation for future users of this
-			companion/app
-		-Goal In The Future: Android App
-			(probably when I get a new phone ~Jan 2014).
+**A little extra:
+        -This idea came to me yesterday when I decided to by
+        risk legacy (which was, in and of itself, unusual since
+        I dislike risk due to the length/pace of the game).
+        Since I was buying risk, why not build a companion/app
+        that helped make the game easier/quicker to play?
+                -Goal 1: Handles dice rolling
+                -Goal 2: Keeps track of player population/
+                        troops and tells how many given
+                        per recuitment step.
+                -Goal 3: since it's for risk legacy, keep
+                        track of player wins and original
+                        color.
+                -Goal 4: FINISH THE THING!!
+                -Goal That Should Be Done: write proper
+                        documentation for future users of this
+                        companion/app
+                -Goal In The Future: Android App
+                        (probably when I get a new phone ~Jan 2014).
 **Completed***
-	--NONE...(>_>)--
+        --NONE...(>_>)--
 **ADDITIONS**
-	--NONE...(>_>)--
+        -Created RiskCompanion class (initial+extra inputs)
+        -Created empty Controller class
+        -Started documentation (early, woot!)
+        -created folder separation for ease of access and visuals
+        -edited ui with initial window and window switched widget
+        -RiskCompanion socket reader added (still need to test)
 ***TO DO**:
-	-Need to create base class for players
-	-Need to create a way to keep track of population
-		-probably writing to a text file
-		-Include a way for growth calculation
-	-Battle simulation (somewhat random dice rolls->
-	probably tied to time)
-	-Continent tracking
-	-cards for troops??
-	-player tracking (in text file too)
-	-dice rolls!! (mentioned above)
-	-------
-	-proper documentation
+        -Need to add test code!!!
+        -Need to create base class for players
+        -Need to create a way to keep track of population
+                -probably writing to a text file
+                -Include a way for growth calculation
+        -Battle simulation (somewhat random dice rolls->
+        probably tied to time)
+        -Continent tracking
+        -cards for troops??
+        -player tracking (in text file too)
+        -dice rolls!! (mentioned above)
+        -------
+        -proper documentation
 =================================================================
