@@ -16,10 +16,12 @@ SOURCES += \
     src/source/RiskCompanion.cpp \
     src/source/Controller.cpp \
     src/source/Main.cpp \
+    src/source/Logger.cpp
 
 HEADERS  += \
     src/header/RiskCompanion.h \
-    src/header/Controller.h
+    src/header/Controller.h \
+    src/header/Logger.h
 
 FORMS    += \
     src/ui/RiskCompanion.ui

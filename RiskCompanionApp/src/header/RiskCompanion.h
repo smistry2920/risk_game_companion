@@ -30,6 +30,8 @@
 
 
 #include <QMainWindow>
+#include <QSignalMapper>
+#include <QDebug>
 
 namespace Ui {
     class RiskCompanion;
@@ -56,10 +58,13 @@ private slots:
 *   ------
 *   -post: signal handled
 -------------------------------------------------------------------*/
-    void signalSorter(const QString &); //sorts signals
+    void signalSorter(QString);
 
 private:
     Ui::RiskCompanion *ui;
+    QSignalMapper *m_signalMapper;
+
+    void connectButtons();
 };
 
 #endif // RISK_COMPANION_H

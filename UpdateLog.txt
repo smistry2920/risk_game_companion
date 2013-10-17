@@ -1,4 +1,23 @@
 =================================================================
+10-16-2013:
+**Completed***
+    --NONE...(>_>)--
+**ADDITIONS**
+
+***TO DO**:
+    -Need to create log file.
+    -Need to add test code!!!
+    -Need to create base class for players
+    -Need to create a way to keep track of population
+        -probably writing to a text file
+        -Include a way for growth calculation
+    -Battle simulation (somewhat random dice rolls->
+        probably tied to time)
+    -Continent tracking
+    -cards for troops??
+    -player tracking (in text file too)
+    -dice rolls!! (mentioned above)
+=================================================================
 10-15-2013: (YAY, start date!)
 **A little extra:
         -This idea came to me yesterday when I decided to by
