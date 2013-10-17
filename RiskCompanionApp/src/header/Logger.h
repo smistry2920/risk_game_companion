@@ -10,13 +10,29 @@
  *
  *Log:
  *      10-16-2013-Suneil Mistry-> Initial Class creation.
+ *      10-17-2013-Suneil Mistry-> More Log functionality added (reading
+ *          file and writing to it)
  *
  ***************************************************************************/
+
+#include <QFile>
+#include <QTextStream>
+#include <QStringList>
 
 class Logger
 {
 public:
-    Logger();
+    Logger(QString);
+    ~Logger();
+    void setFileName(QString);
+    bool write2File(QString);
+    bool writeList2File(QStringList);
+    QString viewLog();
+    void close();
+private:
+    QFile *m_file;
+    QTextStream *m_input;
+
 };
 
 #endif // LOGGER_H

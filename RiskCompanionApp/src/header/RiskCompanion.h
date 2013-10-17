@@ -32,6 +32,8 @@
 #include <QMainWindow>
 #include <QSignalMapper>
 #include <QDebug>
+#include "ui_RiskCompanion.h"
+#include "../header/Logger.h"
 
 namespace Ui {
     class RiskCompanion;
@@ -63,6 +65,10 @@ private slots:
 private:
     Ui::RiskCompanion *ui;
     QSignalMapper *m_signalMapper;
+
+    //test remove when necessary!
+    Logger *m_logger;
+    //end test area!
 
     void connectButtons();
 };
